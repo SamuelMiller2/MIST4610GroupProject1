@@ -5,7 +5,7 @@ Team 6, 9:10 - 10:00
 
 # Team Members:
 Samuel Miller
-
+Sophia Scarangello
 
 # Problem Description
 
