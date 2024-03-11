@@ -8,6 +8,8 @@ Samuel Miller
 
 Sophia Scarangello
 
+Riley Eckstrom
+
 # Problem Description
 
 # Data Model
