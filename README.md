@@ -10,6 +10,10 @@ Sophia Scarangello
 
 Riley Eckstrom
 
+Michael Banks
+
+Owen Donnelly
+
 # Problem Description
 
 # Data Model
