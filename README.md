@@ -8,6 +8,8 @@ Samuel Miller
 
 Sophia Scarangello
 
+Arika Chiluvuri
+
 Riley Eckstrom
 
 Michael Banks
