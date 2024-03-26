@@ -19,9 +19,68 @@ Michael Banks
 
 
 # Problem Description
+Goon's emergency healthcare clinic is a 24/7 facility that provides urgent medical care to patients with various health concerns. The clinic employs a skilled medical team who work in shifts to ensure continuous care. To efficiently manage the clinic's operations, our team has developed a comprehensive data model that captures the essential entities and their relationships. This includes patient information, visit details, diagnostic tests, equipment inventory, treatments, prescriptions, pharmacy inventory, billing, and payments. By implementing this data model, the clinic aims to streamline its operations, enhance patient care, optimize resource utilization, and improve overall efficiency. The database will serve as a centralized repository for storing and managing critical information, enabling the clinic staff to make informed decisions and provide the best possible care to their patients.
 
 # Data Model
-<img width="409" alt="image" src="https://github.com/SamuelMiller2/MIST4610GroupProject1/assets/150087690/756139c3-4a81-4cc8-a5e1-fddacc2ee280">
+Explanation of data model:
+DiagnosisTests Entity:
+The DiagnosisTests entity stores details about the diagnostic tests conducted during patient visits. It includes attributes such as equiptmentID (foreign key referencing the Equipment entity), visitsID (foreign key referencing the Visits entity), testDuration, testPerformed, and testDate. This entity is linked to the Visits and Equipment entities, enabling the tracking of test results and equipment usage.
+
+
+Equipment Entity:
+The Equipment entity keeps track of the medical equipment available in the clinic. It contains attributes like equiptmentID, itemName, quantityOwned, and purchaseDate. This entity is associated with the DiagnosisTests entity to record which equipment is used for each diagnostic test.
+
+
+DiagThe data model for the emergency healthcare clinic consists of 11 main entities: Patients, Staff, Visits, DiagnosisTests, Equipment, Diagnosis, Treatment, Prescription, Pharmacy, Billing, and Payments. These entities are interconnected through various relationships, forming a comprehensive structure to manage the clinic's operations.
+Patients Entity:
+The Patients entity stores essential information about each patient, including their unique patientID, last name, first name, date of birth, gender, address, phone number, and insurance company. This entity serves as a central repository for patient data and is connected to other entities to track their visits, diagnoses, and billing information.
+
+
+Staff Entity:
+The Staff entity represents the medical professionals working at the clinic. It contains attributes such as staffID, last name, first name, specialty, phone number, and job title. The Staff entity is associated with the Visits entity to record which staff member attends to each patient during their visit.
+
+
+Visits Entity:
+The Visits entity captures information about each patient's visit to the clinic. It includes attributes like visitsID, timeIn, timeOut, reasonForVisit, patientID (foreign key referencing the Patients entity), and billingID (foreign key referencing the Billing entity). The Visits entity is connected to the Patients, Billing, and DiagnosisTests entities, allowing for a comprehensive record of each patient's clinic experience.
+
+
+nosis Entity:
+The Diagnosis entity stores information about the diagnoses made for each patient visit. It includes attributes such as diagnosisID, diagnosis, diagnosisDescription, dateOfDiagnosis, and visitsID (foreign key referencing the Visits entity). The Diagnosis entity is connected to the Visits, Treatment, and Prescription entities, forming a link between the patient's diagnosis, prescribed treatment, and medication.
+
+
+Treatment Entity:
+The Treatment entity captures details about the treatments provided to patients based on their diagnosis. It includes attributes like treatmentID, treatmentName, treatmentDescription, treatmentDate, treatmentLength, treatmentLocation, treatmentSupplies, and diagnosisID (foreign key referencing the Diagnosis entity). The Treatment entity is associated with the Diagnosis entity, allowing for a record of the specific treatments administered for each diagnosed condition.
+
+
+Prescription Entity:
+The Prescription entity stores information about the medications prescribed to patients. It includes attributes such as prescriptionID, medicationName, dosage, instructions, duration, diagnosisID (foreign key referencing the Diagnosis entity), and pharmacyID (foreign key referencing the Pharmacy entity). The Prescription entity is linked to the Diagnosis and Pharmacy entities, enabling the tracking of prescribed medications and their dispensing from the clinic's pharmacy.
+
+
+Pharmacy Entity:
+The Pharmacy entity represents the in-house pharmacy at the clinic. It contains attributes like pharmacyID, pharmacyName, pharmacyPhone, pharmacyHours, and pharmacyAddress. The Pharmacy entity is associated with the Prescription entity, facilitating the management of medication dispensing and inventory.
+
+
+Billing Entity:
+The Billing entity handles the financial aspects of patient visits. It includes attributes such as billingID, totalCharged, itemizedCharges, billingDate, dueDate, and paymentStatus. The Billing entity is connected to the Visits and Payments entities, allowing for the generation of bills based on the services provided during each visit and tracking the payment status.
+
+
+Payments Entity:
+The Payments entity records the payment information for each bill. It includes attributes like paymentID, paymentStatus, paymentAmount, paymentMethod, paymentDate, and billingID (foreign key referencing the Billing entity). The Payments entity is associated with the Billing entity, enabling the tracking of payment details and status for each bill.
+
+
+Relationships:
+The Patients entity has a one-to-many relationship with the Visits entity, as a patient can have multiple visits to the clinic.
+The Staff entity has a many-to-many relationship with the Visits entity, as multiple staff members can attend to a patient during a visit, and a staff member can attend to multiple visits.
+The Visits entity has a one-to-many relationship with the DiagnosisTests entity, as multiple diagnostic tests can be conducted during a single visit.
+The Equipment entity has a one-to-many relationship with the DiagnosisTests entity, as a piece of equipment can be used in multiple diagnostic tests.
+The Visits entity has a one-to-many relationship with the Diagnosis entity, as a visit can result in multiple diagnoses.
+The Diagnosis entity has a one-to-many relationship with the Treatment entity, as a diagnosis can lead to multiple treatments.
+The Diagnosis entity has a one-to-many relationship with the Prescription entity, as a diagnosis can result in multiple prescribed medications.
+The Pharmacy entity has a one-to-many relationship with the Prescription entity, as the clinic's pharmacy can dispense multiple prescribed medications.
+The Visits entity has a one-to-one relationship with the Billing entity, as each visit generates a corresponding bill.
+The Billing entity has a one-to-many relationship with the Payments entity, as a bill can have multiple payments associated with it.
+
+<img width="818" alt="image" src="https://github.com/SamuelMiller2/MIST4610GroupProject1/assets/150087690/756139c3-4a81-4cc8-a5e1-fddacc2ee280">
 
 # Data Dictionary
 <img width="681" alt="Screenshot 2024-03-26 at 6 39 05 PM" src="https://github.com/SamuelMiller2/MIST4610GroupProject1/assets/163004723/80c54b27-49d2-41a5-9132-a86579cc36eb">
