@@ -1,7 +1,7 @@
 # MIST4610 Group 6 Project 1
 
 # Team Name:
-47114 Group6
+47114 Group 6
 
 # Team Members:
 Samuel Miller
