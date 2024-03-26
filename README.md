@@ -24,6 +24,7 @@ Owen Donnelly
 # Data Dictionary
 
 # Queries
+<img width="488" alt="image" src="https://github.com/SamuelMiller2/MIST4610GroupProject1/assets/163002732/af3ae506-840a-462a-8413-b023f901070c">
 
 1. List the patient's first and last name combined for patients whose total bill amount is greater than the average bill amount of the insurance company they belong to.
 
