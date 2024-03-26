@@ -74,7 +74,8 @@ Justification: This query helps the manager identify the most common conditions 
 
 10. Write a query that identifies the staff members and how many prescriptions they have written. Include their job title and specialty.
 Justification: This query helps the urgent care manager identify the staff members who are the most active in prescribing medications. It can be used to analyze prescribing patterns, identify potential over-prescribing, and ensure that staff members are practicing within their scope of practice. By including the job title and specialty, the manager can also assess if the prescribing patterns align with the staff member's role and expertise.
-<img width="877" alt="Screenshot 2024-03-26 at 6 35 33 PM" src="https://github.com/SamuelMiller2/MIST4610GroupProject1/assets/131375287/f17cc7ac-a859-44d5-9149-9d6dce50d3bd">
+<img width="877" alt="Screenshot 2024-03-26 at 6 39 27 PM" src="https://github.com/SamuelMiller2/MIST4610GroupProject1/assets/131375287/0d651e91-dc3c-4bd6-8351-f27c6196719b">
+
 
 # Database Information
 
