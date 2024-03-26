@@ -19,7 +19,7 @@ Owen Donnelly
 # Problem Description
 
 # Data Model
-<img width="327" alt="image" src="https://github.com/SamuelMiller2/MIST4610GroupProject1/assets/150087690/5fb52923-a4b6-47d7-975f-02e6ec377f9c">
+<img width="384" alt="image" src="https://github.com/SamuelMiller2/MIST4610GroupProject1/assets/150087690/c248954b-6041-4f32-b35d-f19f8ee8cd22">
 
 # Data Dictionary
 
