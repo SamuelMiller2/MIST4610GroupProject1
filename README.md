@@ -12,9 +12,11 @@ Arika Chiluvuri
 
 Riley Eckstrom
 
+Owen Donnelly
+
 Michael Banks
 
-Owen Donnelly
+
 
 # Problem Description
 
@@ -22,6 +24,19 @@ Owen Donnelly
 <img width="409" alt="image" src="https://github.com/SamuelMiller2/MIST4610GroupProject1/assets/150087690/756139c3-4a81-4cc8-a5e1-fddacc2ee280">
 
 # Data Dictionary
+<img width="681" alt="Screenshot 2024-03-26 at 6 39 05 PM" src="https://github.com/SamuelMiller2/MIST4610GroupProject1/assets/163004723/80c54b27-49d2-41a5-9132-a86579cc36eb">
+<img width="691" alt="Screenshot 2024-03-26 at 6 39 27 PM" src="https://github.com/SamuelMiller2/MIST4610GroupProject1/assets/163004723/2cd7ce30-e672-4dc2-87cb-9cf3a665dc76">
+<img width="679" alt="Screenshot 2024-03-26 at 6 39 43 PM" src="https://github.com/SamuelMiller2/MIST4610GroupProject1/assets/163004723/aea9df11-608d-4b44-8111-e10ec650d959">
+<img width="687" alt="Screenshot 2024-03-26 at 6 40 02 PM" src="https://github.com/SamuelMiller2/MIST4610GroupProject1/assets/163004723/96b1be21-90b6-48a8-a8b2-629ea704deb6">
+<img width="684" alt="Screenshot 2024-03-26 at 6 40 20 PM" src="https://github.com/SamuelMiller2/MIST4610GroupProject1/assets/163004723/564e76d5-7cc0-4b3b-93e8-449df09114de">
+<img width="683" alt="Screenshot 2024-03-26 at 6 40 36 PM" src="https://github.com/SamuelMiller2/MIST4610GroupProject1/assets/163004723/3e36dafc-3008-4c6e-bea5-ddb0dcf6e1a5">
+<img width="690" alt="Screenshot 2024-03-26 at 6 41 04 PM" src="https://github.com/SamuelMiller2/MIST4610GroupProject1/assets/163004723/c8c68966-1b4c-4c45-838f-54a731bc68a3">
+<img width="696" alt="Screenshot 2024-03-26 at 6 41 17 PM" src="https://github.com/SamuelMiller2/MIST4610GroupProject1/assets/163004723/9ac5639e-56b2-4bf4-afe2-cbc088cf944c">
+<img width="689" alt="Screenshot 2024-03-26 at 6 41 31 PM" src="https://github.com/SamuelMiller2/MIST4610GroupProject1/assets/163004723/cfce7023-6756-43ca-9dfe-89f2795e82ea">
+<img width="687" alt="Screenshot 2024-03-26 at 6 41 42 PM" src="https://github.com/SamuelMiller2/MIST4610GroupProject1/assets/163004723/c8d9e571-35c6-4a86-a64f-cf993bb50260">
+<img width="686" alt="Screenshot 2024-03-26 at 6 41 54 PM" src="https://github.com/SamuelMiller2/MIST4610GroupProject1/assets/163004723/cee4b9e8-5777-485d-bbda-9801d2d0d10f">
+<img width="685" alt="Screenshot 2024-03-26 at 6 42 08 PM" src="https://github.com/SamuelMiller2/MIST4610GroupProject1/assets/163004723/fd18d128-c1ec-4200-821b-d565b03f2c9d">
+
 
 # Queries
 <img width="488" alt="image" src="https://github.com/SamuelMiller2/MIST4610GroupProject1/assets/163002732/af3ae506-840a-462a-8413-b023f901070c">
