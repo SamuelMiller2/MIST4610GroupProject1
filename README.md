@@ -8,7 +8,7 @@ Samuel Miller
 
 Sophia Scarangello 
 
-Arika Chiluvuri
+Arika Chiluvuri <a href="https://github.com/Arikac03/MIST4610GroupProject1">Link</a>
 
 Riley Eckstrom
 
