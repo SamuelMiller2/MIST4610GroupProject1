@@ -4,7 +4,7 @@
 47114 Group 6
 
 # Team Members:
-Samuel Miller
+Samuel Miller <a href= "https://github.com/SamuelMiller2/MIST4610GroupProject1">Link</a>
 
 Sophia Scarangello <a href= "https://github.com/sophiascarangello/MIST4610GroupProject1">Link</a>
 
