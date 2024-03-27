@@ -6,7 +6,7 @@
 # Team Members:
 Samuel Miller
 
-Sophia Scarangello @sophiascarangello
+Sophia Scarangello 
 
 Arika Chiluvuri
 
