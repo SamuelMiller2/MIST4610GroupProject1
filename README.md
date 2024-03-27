@@ -14,7 +14,7 @@ Riley Eckstrom <a href="https://github.com/rte84597/MIST4610GroupProject1">Link<
 
 Owen Donnelly <a href="https://github.com/dangermouse5/MIST4610GroupProject1">Link</a>
 
-Michael Banks
+Michael Banks <a href="https://github.com/MichaelBanks3?tab=repositories">Link</a>
 
 
 
