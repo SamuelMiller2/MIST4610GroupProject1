@@ -6,7 +6,7 @@
 # Team Members:
 Samuel Miller
 
-Sophia Scarangello 
+Sophia Scarangello <a href= "https://github.com/sophiascarangello/MIST4610GroupProject1">Link</a>
 
 Arika Chiluvuri <a href="https://github.com/Arikac03/MIST4610GroupProject1">Link</a>
 
