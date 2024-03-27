@@ -12,7 +12,7 @@ Arika Chiluvuri <a href="https://github.com/Arikac03/MIST4610GroupProject1">Link
 
 Riley Eckstrom <a href="https://github.com/rte84597/MIST4610GroupProject1">Link</a>
 
-Owen Donnelly
+Owen Donnelly <a href="https://github.com/dangermouse5/MIST4610GroupProject1">Link</a>
 
 Michael Banks
 
